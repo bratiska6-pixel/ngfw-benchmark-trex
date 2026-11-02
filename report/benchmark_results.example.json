@@ -1,0 +1,596 @@
+ 
+{
+  "ideco": {
+    "http_100": {
+      "profile": "astf/http_simple.py",
+      "mult": 100,
+      "duration": 12,
+      "max_cps": 275.2,
+      "max_rx_mbps": 403.69,
+      "max_tx_mbps": 20.37,
+      "samples": [
+        {
+          "elapsed": 1.5,
+          "cps": 111.3,
+          "rx_mbps": 81.33,
+          "tx_mbps": 9.75,
+          "p1_rx_mbps": 20.03,
+          "active_flows": 0.0
+        },
+        {
+          "elapsed": 3.0,
+          "cps": 235.6,
+          "rx_mbps": 147.31,
+          "tx_mbps": 15.43,
+          "p1_rx_mbps": 30.31,
+          "active_flows": 1.0
+        },
+        {
+          "elapsed": 4.5,
+          "cps": 256.9,
+          "rx_mbps": 153.26,
+          "tx_mbps": 15.94,
+          "p1_rx_mbps": 31.94,
+          "active_flows": 1.0
+        },
+        {
+          "elapsed": 6.0,
+          "cps": 271.3,
+          "rx_mbps": 193.88,
+          "tx_mbps": 18.42,
+          "p1_rx_mbps": 39.52,
+          "active_flows": 15.0
+        },
+        {
+          "elapsed": 7.5,
+          "cps": 275.2,
+          "rx_mbps": 315.54,
+          "tx_mbps": 20.37,
+          "p1_rx_mbps": 70.04,
+          "active_flows": 23.0
+        },
+        {
+          "elapsed": 9.0,
+          "cps": 275.2,
+          "rx_mbps": 394.46,
+          "tx_mbps": 20.3,
+          "p1_rx_mbps": 97.49,
+          "active_flows": 19.0
+        },
+        {
+          "elapsed": 10.5,
+          "cps": 274.5,
+          "rx_mbps": 403.69,
+          "tx_mbps": 20.23,
+          "p1_rx_mbps": 100.4,
+          "active_flows": 29.0
+        },
+        {
+          "elapsed": 12.0,
+          "cps": 270.6,
+          "rx_mbps": 396.81,
+          "tx_mbps": 19.53,
+          "p1_rx_mbps": 102.15,
+          "active_flows": 28.0
+        },
+        {
+          "elapsed": 13.5,
+          "cps": 150.3,
+          "rx_mbps": 273.56,
+          "tx_mbps": 11.72,
+          "p1_rx_mbps": 103.83,
+          "active_flows": 0.0
+        },
+        {
+          "elapsed": 15.0,
+          "cps": 75.2,
+          "rx_mbps": 182.6,
+          "tx_mbps": 5.86,
+          "p1_rx_mbps": 100.39,
+          "active_flows": 0.0
+        },
+        {
+          "elapsed": 16.6,
+          "cps": 18.8,
+          "rx_mbps": 154.83,
+          "tx_mbps": 1.46,
+          "p1_rx_mbps": 44.57,
+          "active_flows": 0.0
+        }
+      ]
+    },
+    "http_300": {
+      "profile": "astf/http_simple.py",
+      "mult": 300,
+      "duration": 12,
+      "max_cps": 827.8,
+      "max_rx_mbps": 358.91,
+      "max_tx_mbps": 38.04,
+      "samples": [
+        {
+          "elapsed": 1.5,
+          "cps": 425.7,
+          "rx_mbps": 126.5,
+          "tx_mbps": 14.89,
+          "p1_rx_mbps": 52.48,
+          "active_flows": 45.0
+        },
+        {
+          "elapsed": 3.0,
+          "cps": 625.1,
+          "rx_mbps": 231.21,
+          "tx_mbps": 28.39,
+          "p1_rx_mbps": 75.63,
+          "active_flows": 58.0
+        },
+        {
+          "elapsed": 4.5,
+          "cps": 778.2,
+          "rx_mbps": 339.87,
+          "tx_mbps": 36.84,
+          "p1_rx_mbps": 96.41,
+          "active_flows": 52.0
+        },
+        {
+          "elapsed": 6.0,
+          "cps": 805.4,
+          "rx_mbps": 349.98,
+          "tx_mbps": 37.4,
+          "p1_rx_mbps": 101.16,
+          "active_flows": 51.0
+        },
+        {
+          "elapsed": 7.5,
+          "cps": 823.6,
+          "rx_mbps": 312.69,
+          "tx_mbps": 33.92,
+          "p1_rx_mbps": 92.87,
+          "active_flows": 48.0
+        },
+        {
+          "elapsed": 9.0,
+          "cps": 825.5,
+          "rx_mbps": 310.78,
+          "tx_mbps": 33.59,
+          "p1_rx_mbps": 94.96,
+          "active_flows": 48.0
+        },
+        {
+          "elapsed": 10.5,
+          "cps": 827.5,
+          "rx_mbps": 323.17,
+          "tx_mbps": 34.93,
+          "p1_rx_mbps": 98.68,
+          "active_flows": 61.0
+        },
+        {
+          "elapsed": 12.0,
+          "cps": 827.8,
+          "rx_mbps": 342.73,
+          "tx_mbps": 35.74,
+          "p1_rx_mbps": 101.42,
+          "active_flows": 70.0
+        },
+        {
+          "elapsed": 13.6,
+          "cps": 645.3,
+          "rx_mbps": 304.63,
+          "tx_mbps": 34.3,
+          "p1_rx_mbps": 98.79,
+          "active_flows": 12.0
+        },
+        {
+          "elapsed": 15.1,
+          "cps": 161.3,
+          "rx_mbps": 358.91,
+          "tx_mbps": 29.98,
+          "p1_rx_mbps": 90.73,
+          "active_flows": 12.0
+        },
+        {
+          "elapsed": 16.6,
+          "cps": 80.7,
+          "rx_mbps": 242.63,
+          "tx_mbps": 38.04,
+          "p1_rx_mbps": 115.76,
+          "active_flows": 9.0
+        }
+      ]
+    },
+    "sfr_50": {
+      "profile": "astf/sfr.py",
+      "mult": 50,
+      "duration": 12,
+      "max_cps": 8585.5,
+      "max_rx_mbps": 933.44,
+      "max_tx_mbps": 198.0,
+      "samples": [
+        {
+          "elapsed": 1.5,
+          "cps": 4291.2,
+          "rx_mbps": 636.31,
+          "tx_mbps": 123.45,
+          "p1_rx_mbps": 193.33,
+          "active_flows": 10548.0
+        },
+        {
+          "elapsed": 3.0,
+          "cps": 5455.4,
+          "rx_mbps": 780.28,
+          "tx_mbps": 154.86,
+          "p1_rx_mbps": 239.69,
+          "active_flows": 20729.0
+        },
+        {
+          "elapsed": 4.5,
+          "cps": 6915.2,
+          "rx_mbps": 918.85,
+          "tx_mbps": 176.89,
+          "p1_rx_mbps": 296.12,
+          "active_flows": 31329.0
+        },
+        {
+          "elapsed": 6.0,
+          "cps": 8585.5,
+          "rx_mbps": 908.66,
+          "tx_mbps": 193.82,
+          "p1_rx_mbps": 305.25,
+          "active_flows": 48607.0
+        },
+        {
+          "elapsed": 7.5,
+          "cps": 8500.8,
+          "rx_mbps": 933.44,
+          "tx_mbps": 193.09,
+          "p1_rx_mbps": 317.48,
+          "active_flows": 57279.0
+        },
+        {
+          "elapsed": 9.0,
+          "cps": 7602.4,
+          "rx_mbps": 853.39,
+          "tx_mbps": 186.36,
+          "p1_rx_mbps": 315.84,
+          "active_flows": 66298.0
+        },
+        {
+          "elapsed": 10.5,
+          "cps": 7499.0,
+          "rx_mbps": 827.51,
+          "tx_mbps": 186.67,
+          "p1_rx_mbps": 326.59,
+          "active_flows": 74439.0
+        },
+        {
+          "elapsed": 12.1,
+          "cps": 7155.4,
+          "rx_mbps": 803.35,
+          "tx_mbps": 188.24,
+          "p1_rx_mbps": 341.86,
+          "active_flows": 82757.0
+        },
+        {
+          "elapsed": 13.6,
+          "cps": 6804.2,
+          "rx_mbps": 861.27,
+          "tx_mbps": 191.56,
+          "p1_rx_mbps": 339.35,
+          "active_flows": 90448.0
+        },
+        {
+          "elapsed": 15.1,
+          "cps": 5939.5,
+          "rx_mbps": 863.73,
+          "tx_mbps": 193.33,
+          "p1_rx_mbps": 338.7,
+          "active_flows": 96936.0
+        },
+        {
+          "elapsed": 16.6,
+          "cps": 6403.6,
+          "rx_mbps": 891.91,
+          "tx_mbps": 198.0,
+          "p1_rx_mbps": 343.32,
+          "active_flows": 103954.0
+        }
+      ]
+    }
+  },
+  "pt_ngfw": {
+    "http_100": {
+      "profile": "astf/http_simple.py",
+      "mult": 100,
+      "duration": 12,
+      "max_cps": 269.0,
+      "max_rx_mbps": 734.63,
+      "max_tx_mbps": 84.11,
+      "samples": [
+        {
+          "elapsed": 1.5,
+          "cps": 103.4,
+          "rx_mbps": 199.89,
+          "tx_mbps": 31.51,
+          "p1_rx_mbps": 88.2,
+          "active_flows": 272.0
+        },
+        {
+          "elapsed": 3.0,
+          "cps": 231.2,
+          "rx_mbps": 597.06,
+          "tx_mbps": 70.62,
+          "p1_rx_mbps": 89.09,
+          "active_flows": 367.0
+        },
+        {
+          "elapsed": 4.5,
+          "cps": 252.7,
+          "rx_mbps": 667.79,
+          "tx_mbps": 76.61,
+          "p1_rx_mbps": 88.68,
+          "active_flows": 345.0
+        },
+        {
+          "elapsed": 6.0,
+          "cps": 265.6,
+          "rx_mbps": 708.09,
+          "tx_mbps": 80.43,
+          "p1_rx_mbps": 88.35,
+          "active_flows": 363.0
+        },
+        {
+          "elapsed": 7.5,
+          "cps": 268.0,
+          "rx_mbps": 696.68,
+          "tx_mbps": 77.96,
+          "p1_rx_mbps": 84.62,
+          "active_flows": 369.0
+        },
+        {
+          "elapsed": 9.0,
+          "cps": 268.3,
+          "rx_mbps": 691.3,
+          "tx_mbps": 73.54,
+          "p1_rx_mbps": 80.1,
+          "active_flows": 353.0
+        },
+        {
+          "elapsed": 10.5,
+          "cps": 267.9,
+          "rx_mbps": 723.97,
+          "tx_mbps": 79.61,
+          "p1_rx_mbps": 88.55,
+          "active_flows": 370.0
+        },
+        {
+          "elapsed": 12.0,
+          "cps": 269.0,
+          "rx_mbps": 734.63,
+          "tx_mbps": 81.58,
+          "p1_rx_mbps": 88.66,
+          "active_flows": 347.0
+        },
+        {
+          "elapsed": 13.5,
+          "cps": 178.7,
+          "rx_mbps": 692.55,
+          "tx_mbps": 83.44,
+          "p1_rx_mbps": 90.02,
+          "active_flows": 87.0
+        },
+        {
+          "elapsed": 15.1,
+          "cps": 89.4,
+          "rx_mbps": 579.13,
+          "tx_mbps": 84.11,
+          "p1_rx_mbps": 90.5,
+          "active_flows": 9.0
+        },
+        {
+          "elapsed": 16.6,
+          "cps": 22.3,
+          "rx_mbps": 396.18,
+          "tx_mbps": 72.92,
+          "p1_rx_mbps": 99.47,
+          "active_flows": 1.0
+        }
+      ]
+    },
+    "http_300": {
+      "profile": "astf/http_simple.py",
+      "mult": 300,
+      "duration": 12,
+      "max_cps": 787.9,
+      "max_rx_mbps": 1041.4,
+      "max_tx_mbps": 88.93,
+      "samples": [
+        {
+          "elapsed": 1.5,
+          "cps": 421.1,
+          "rx_mbps": 544.83,
+          "tx_mbps": 59.89,
+          "p1_rx_mbps": 92.24,
+          "active_flows": 972.0
+        },
+        {
+          "elapsed": 3.0,
+          "cps": 611.0,
+          "rx_mbps": 779.32,
+          "tx_mbps": 69.23,
+          "p1_rx_mbps": 91.41,
+          "active_flows": 1208.0
+        },
+        {
+          "elapsed": 4.5,
+          "cps": 744.4,
+          "rx_mbps": 962.77,
+          "tx_mbps": 75.24,
+          "p1_rx_mbps": 91.56,
+          "active_flows": 1312.0
+        },
+        {
+          "elapsed": 6.0,
+          "cps": 760.4,
+          "rx_mbps": 998.72,
+          "tx_mbps": 72.82,
+          "p1_rx_mbps": 89.11,
+          "active_flows": 1507.0
+        },
+        {
+          "elapsed": 7.5,
+          "cps": 779.8,
+          "rx_mbps": 1023.66,
+          "tx_mbps": 70.96,
+          "p1_rx_mbps": 88.06,
+          "active_flows": 1497.0
+        },
+        {
+          "elapsed": 9.0,
+          "cps": 787.9,
+          "rx_mbps": 1041.4,
+          "tx_mbps": 74.68,
+          "p1_rx_mbps": 89.28,
+          "active_flows": 1481.0
+        },
+        {
+          "elapsed": 10.5,
+          "cps": 784.1,
+          "rx_mbps": 1020.09,
+          "tx_mbps": 75.25,
+          "p1_rx_mbps": 87.59,
+          "active_flows": 1499.0
+        },
+        {
+          "elapsed": 12.0,
+          "cps": 778.5,
+          "rx_mbps": 995.0,
+          "tx_mbps": 74.91,
+          "p1_rx_mbps": 86.76,
+          "active_flows": 1630.0
+        },
+        {
+          "elapsed": 13.5,
+          "cps": 574.2,
+          "rx_mbps": 1012.59,
+          "tx_mbps": 77.41,
+          "p1_rx_mbps": 88.8,
+          "active_flows": 1039.0
+        },
+        {
+          "elapsed": 15.1,
+          "cps": 287.1,
+          "rx_mbps": 872.17,
+          "tx_mbps": 83.47,
+          "p1_rx_mbps": 91.24,
+          "active_flows": 348.0
+        },
+        {
+          "elapsed": 16.6,
+          "cps": 71.8,
+          "rx_mbps": 605.46,
+          "tx_mbps": 88.93,
+          "p1_rx_mbps": 94.87,
+          "active_flows": 101.0
+        }
+      ]
+    },
+    "sfr_50": {
+      "profile": "astf/sfr.py",
+      "mult": 50,
+      "duration": 12,
+      "max_cps": 19082.1,
+      "max_rx_mbps": 752.85,
+      "max_tx_mbps": 435.4,
+      "samples": [
+        {
+          "elapsed": 1.5,
+          "cps": 15674.4,
+          "rx_mbps": 543.68,
+          "tx_mbps": 201.6,
+          "p1_rx_mbps": 176.02,
+          "active_flows": 58679.0
+        },
+        {
+          "elapsed": 3.0,
+          "cps": 19082.1,
+          "rx_mbps": 728.55,
+          "tx_mbps": 306.52,
+          "p1_rx_mbps": 287.66,
+          "active_flows": 85995.0
+        },
+        {
+          "elapsed": 4.5,
+          "cps": 18064.8,
+          "rx_mbps": 751.29,
+          "tx_mbps": 349.51,
+          "p1_rx_mbps": 285.42,
+          "active_flows": 104108.0
+        },
+        {
+          "elapsed": 6.0,
+          "cps": 16232.9,
+          "rx_mbps": 750.8,
+          "tx_mbps": 378.6,
+          "p1_rx_mbps": 277.37,
+          "active_flows": 115912.0
+        },
+        {
+          "elapsed": 7.5,
+          "cps": 14215.8,
+          "rx_mbps": 745.75,
+          "tx_mbps": 404.36,
+          "p1_rx_mbps": 256.87,
+          "active_flows": 127661.0
+        },
+        {
+          "elapsed": 9.0,
+          "cps": 13702.5,
+          "rx_mbps": 752.85,
+          "tx_mbps": 412.92,
+          "p1_rx_mbps": 252.31,
+          "active_flows": 139342.0
+        },
+        {
+          "elapsed": 10.5,
+          "cps": 13227.0,
+          "rx_mbps": 709.28,
+          "tx_mbps": 435.4,
+          "p1_rx_mbps": 242.38,
+          "active_flows": 148792.0
+        },
+        {
+          "elapsed": 12.0,
+          "cps": 12293.9,
+          "rx_mbps": 704.87,
+          "tx_mbps": 398.42,
+          "p1_rx_mbps": 227.95,
+          "active_flows": 160179.0
+        },
+        {
+          "elapsed": 13.5,
+          "cps": 13514.9,
+          "rx_mbps": 655.07,
+          "tx_mbps": 414.85,
+          "p1_rx_mbps": 213.26,
+          "active_flows": 171331.0
+        },
+        {
+          "elapsed": 15.1,
+          "cps": 12549.5,
+          "rx_mbps": 664.97,
+          "tx_mbps": 417.07,
+          "p1_rx_mbps": 220.52,
+          "active_flows": 179917.0
+        },
+        {
+          "elapsed": 16.6,
+          "cps": 11038.1,
+          "rx_mbps": 692.24,
+          "tx_mbps": 415.23,
+          "p1_rx_mbps": 233.77,
+          "active_flows": 187911.0
+        }
+      ]
+    }
+  },
+  "timestamp": "2026-11-02 16:17:32"
+}

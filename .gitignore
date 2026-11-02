@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+.cache/
+.pytest_cache/
+
+# PCAP dumps and raw metrics
+*.pcap
+*.pcapng
+*.tmp
+local_*.json
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.token
+credentials.yaml
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
