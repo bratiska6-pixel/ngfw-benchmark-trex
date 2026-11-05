@@ -15,6 +15,7 @@
 | `pt_ngfw_node1` | Нода обработки трафика PT NGFW (DPDK Data Plane) | `<PT_NODE_IP>` (SSH) | `ngfw` / `<PT_PASSWORD>` | **4 vCPU / 16 GB RAM** |
 | `pt_ngfw_mgmt` | Панель управления PT NGFW Management Web UI | `<PT_MGMT_IP>` (HTTPS: 443) | `admin` / `<PT_MGMT_PASSWORD>`<br>SSH: `ngfw` / `<PT_PASSWORD>` | 4 vCPU / 16 GB RAM |
 | `Ideco_ngfw_Novum_v23` | Межсетевой экран Ideco NGFW Novum v23 | `<IDECO_IP>:8443` (Web UI/API) | `admin` / `<IDECO_PASSWORD>` | **4 vCPU / 16 GB RAM** |
+| `UserGate_NGFW_v7` | Межсетевой экран UserGate NGFW v7.4.3 | `<UG_IP>:8001` (Web UI) / SSH: 2200 | `Admin` / `<UG_PASSWORD>` | **4 vCPU / 16 GB RAM** |
 | `Ideco_ngfw_Novum_v23-lan1 (lin)` | Вспомогательный клиентский хост сегмента LAN1 | Внутренняя сеть LAN1 | — | 1 vCPU / 2 GB RAM |
 | `Ideco_ngfw_Novum_v23-lan2(lin)` | Вспомогательный серверный хост сегмента LAN2 | Внутренняя сеть LAN2 | — | 1 vCPU / 2 GB RAM |
 | `Ideco_ngfw_Novum_v23-mgmt(win)` | Windows-клиент для управления | Сеть управления | — | 2 vCPU / 4 GB RAM |
@@ -55,6 +56,10 @@
                     |  - PT NGFW Node 1                  |
                     |    eth1-1.0: 192.168.1.5/24        |
                     |    eth1-2.0: 172.10.1.5/24         |
+                    |                                    |
+                    |  - UserGate NGFW v7.4.3            |
+                    |    port1: 192.168.1.10/24          |
+                    |    port2: 172.10.1.10/24           |
                     +------------------------------------+
 ```
 
@@ -81,6 +86,8 @@
 | **Ideco Port LAN2 (eth2)** | `172.10.1.1/24` | `00:0c:29:e7:5b:6d` | Шлюз сервера для Ideco |
 | **PT NGFW eth1-1.0** | `192.168.1.5/24` | `00:0c:29:88:29:20` | Шлюз клиента для PT NGFW |
 | **PT NGFW eth1-2.0** | `172.10.1.5/24` | `00:0c:29:88:29:2a` | Шлюз сервера для PT NGFW |
+| **UserGate port1** | `192.168.1.10/24` | `00:0c:29:c5:93:42` | Шлюз клиента для UserGate |
+| **UserGate port2** | `172.10.1.10/24` | `00:0c:29:c5:93:4c` | Шлюз сервера для UserGate |
 
 ### Статическая маршрутизация на NGFW:
 Для корректного прохождения трафика эмулируемых подсетей TRex на обоих NGFW прописаны статические маршруты:
